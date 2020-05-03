@@ -1,0 +1,8 @@
+<ui>
+	<panel columns="2">
+		<NameAttribute />
+		<group label="REDIS_GETKEY_SETTINGS_LABEL" columns="2" span="2" fill="false">
+			<TextAttribute field="get_key" label="get_key_LABEL" displayName="get_key_LABEL_DISP_NAME" />
+		</group>
+	</panel>
+</ui>

@@ -1,0 +1,8 @@
+<ui>
+	<panel columns="2">
+		<NameAttribute />
+		<group label="REDIS_EXISTSKEY_SETTINGS_LABEL" columns="2" span="2" fill="false">
+			<TextAttribute field="exists_key" label="key_exists_LABEL" displayName="key_exists_LABEL_DISP_NAME" />
+		</group>
+	</panel>
+</ui>

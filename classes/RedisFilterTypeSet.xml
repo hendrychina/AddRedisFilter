@@ -1,0 +1,6 @@
+<typeSet>
+    <typedoc file="RedisFilterDesc.xml" />
+    <typedoc file="RedisRemoveCacheDesc.xml" />
+    <typedoc file="RedisKeyExistsCacheDesc.xml" />
+    <typedoc file="RedisGetCacheDesc.xml" />
+</typeSet>

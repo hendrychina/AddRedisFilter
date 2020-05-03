@@ -1,0 +1,30 @@
+<ui>
+	<panel columns="2">
+		<NameAttribute />
+		<!-- Connection settings --> 
+		<!-- 
+        <group label="REDIS_CONNECTION_SETTINGS_LABEL" columns="2" span="2" fill="false">
+			<TextAttribute field="hostname" label="hostname_LABEL" displayName="hostname_LABEL_DISP_NAME" />
+			<TextAttribute field="port" label="port_LABEL" displayName="port_LABEL_DISP_NAME" />
+			<TextAttribute field="auth" label="auth_LABEL" displayName="auth_LABEL_DISP_NAME" />
+			<PasswordAttribute field="password" label="password_LABEL" displayName="password_LABEL_DISP_NAME" /> 
+		</group>
+		 -->
+		<!-- key value -->
+		<group label="REDIS_KEYVALUE_SETTINGS_LABEL" columns="2" span="2" fill="false">
+			<TextAttribute field="key" label="key_LABEL" displayName="key_LABEL_DISP_NAME" />
+			<TextAttribute field="value" label="value_LABEL" displayName="value_LABEL_DISP_NAME" />
+		</group>
+		
+		<!-- 		
+	     <group label="MESSAGE_PROPERTIES" columns="2" span="2" fill="false">
+	     <TablePage type="Property" tableHeight="150"
+	       dialogClass="com.axway.amqp.NameValueDialog"
+	       columnProperties="name,value" sortColumns="name,value"
+	       columnResources="PROPNAME_LABEL,PROPVALUE_LABEL" columnWidths="300,200"
+	       deleteText="DELETE_VARIABLE_CONFIRMATION"
+	       dialog.setFlavor="properties_variable_dialog.xml" />
+	    </group>
+	     -->
+	</panel>
+</ui>

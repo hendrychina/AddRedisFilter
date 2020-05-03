@@ -1,0 +1,7 @@
+<entityStoreData>
+	<entityType name="RedisRemoveCache" extends="Filter">
+		<constant name="class" type="string" value="com.axway.filter.RedisRemoveCache" />
+		<componentType name="Property" cardinality="*" />
+		<field name="key" type="string" cardinality="1" />
+	</entityType>
+</entityStoreData>

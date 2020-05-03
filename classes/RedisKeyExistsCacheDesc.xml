@@ -1,0 +1,7 @@
+<entityStoreData>
+	<entityType name="RedisKeyExistsCache" extends="Filter">
+		<constant name="class" type="string" value="com.axway.filter.RedisKeyExistsCache" />
+		<componentType name="Property" cardinality="*" />
+		<field name="exists_key" type="string" cardinality="1" />
+	</entityType>
+</entityStoreData>

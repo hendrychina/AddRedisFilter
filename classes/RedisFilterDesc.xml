@@ -1,0 +1,29 @@
+<!-- This type defines the filter configuration data for the Redis filter -->
+
+<entityStoreData>
+	<entityType name="RedisFilter" extends="Filter">
+		<constant name="class" type="string" value="com.axway.filter.RedisFilter" />
+		<componentType name="Property" cardinality="*" />
+		
+		<!--
+		<field name="hostname" type="string" cardinality="1" />
+		<field name="port" type="string" cardinality="1" default="6379" />
+		<field name="auth" type="string" cardinality="1" />
+		-->
+		<!-- <field name="password" type="encrypted" cardinality="1" /> -->
+		<!-- <field name="contentType" type="string" cardinality="1" default="application/json" /> -->
+		<field name="key" type="string" cardinality="1" />
+		<field name="value" type="string" cardinality="1" />
+	</entityType>
+
+	<!-- Internationalization for logging / audit trail -->
+	<entity xmlns="http://www.vordel.com/2005/06/24/entityStore" type="InternationalizationFilter">
+		<key type="Internationalization">
+			<id field="name" value="Internationalization Default" />
+		</key>
+		<fval name="type"><value>Redis Publish Filter</value></fval>
+		<fval name="logFatal"><value>Error in the Redis :${circuit.exception}</value></fval>
+		<fval name="logFailure"><value>Failed in the Redis filter</value></fval>
+		<fval name="logSuccess"><value>Success in the Redis filter</value></fval>
+	</entity>
+</entityStoreData>
